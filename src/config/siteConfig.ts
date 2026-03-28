@@ -12,7 +12,9 @@ export interface Experience {
   role: string;
   company: string;
   duration: string;
-  description: string;
+  location: string;
+  points: string[];
+  tech: string[];
 }
 
 export interface SiteConfig {
@@ -102,26 +104,46 @@ const siteConfig: SiteConfig = {
   ],
   experience: [
     {
-      role: "Senior Frontend Developer",
-      company: "TechCorp",
-      duration: "2022 — Present",
-      description:
-        "Leading the frontend architecture for a SaaS platform serving 50k+ users. Built a component library and design system from scratch.",
+      role: "UI/UX Designer",
+      company: "SudoMade",
+      duration: "Oct 2025 — Jan 2026",
+      location: "Remote",
+      points: [
+        "Designed core user-facing and internal interfaces for an early-stage startup web platform.",
+        "Collaborated with founders and team members through ideation, design reviews, and feedback cycles.",
+        "Created low-fidelity wireframes and translated them into high-fidelity UI designs.",
+        "Designed complete admin panel experience including dashboards, order management, and product workflows.",
+        "Focused on usability, clarity, and scalability across all interfaces."
+      ],
+      tech: ["Figma"]
     },
     {
-      role: "Full Stack Developer",
-      company: "StartupXYZ",
-      duration: "2020 — 2022",
-      description:
-        "Developed and maintained multiple client-facing applications. Implemented real-time features and optimized performance by 40%.",
+      role: "Web Developer (Graduate Client Project)",
+      company: "Depth Training & Physiotherapy",
+      duration: "Sep 2025 — Dec 2025",
+      location: "Ontario, Canada · Remote",
+      points: [
+        "Built dynamic, content-driven frontend pages using Next.js and Tailwind CSS, improving content scalability and reducing manual updates.",
+        "Integrated Sanity CMS with schema design and GROQ queries.",
+        "Developed reusable React components ensuring responsive and accessible UI.",
+        "Collaborated in Agile workflow using Jira and GitHub feature branches.",
+        "Delivered production-ready features with optimized performance and consistent rendering across devices, enhancing user experience."
+      ],
+      tech: ["Next.js", "React", "Tailwind", "Sanity CMS"]
     },
     {
-      role: "Junior Developer",
-      company: "Digital Agency Co.",
-      duration: "2018 — 2020",
-      description:
-        "Built responsive websites and web applications for clients across various industries. Worked closely with designers and project managers.",
-    },
+      role: "UI/UX Designer (Graduate Client Project)",
+      company: "Wilfrid Laurier University",
+      duration: "Jan 2025 — Apr 2025",
+      location: "Brantford, Ontario, Canada",
+      points: [
+        "Conducted user research and translated findings into personas and user flows.",
+        "Designed structured wireframes and high-fidelity prototypes using Balsamiq and Figma.",
+        "Improved usability through iterative design reviews and feedback cycles.",
+        "Developed navigation and interaction systems focused on clarity and discoverability."
+      ],
+      tech: ["Figma", "Balsamiq", "User Research"]
+    }
   ],
 };
 

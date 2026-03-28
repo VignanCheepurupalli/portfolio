@@ -9,19 +9,47 @@ const ExperienceSection = () => (
           Experience
         </h2>
       </FadeIn>
+
       <div className="space-y-10 max-w-2xl">
         {siteConfig.experience.map((exp, i) => (
           <FadeIn key={i} delay={i * 0.1}>
-            <div className="relative pl-6 border-l-2 border-border">
-              <div className="absolute -left-[5px] top-1.5 w-2 h-2 rounded-full bg-muted-foreground/40" />
-              <p className="text-xs text-muted-foreground mb-1">{exp.duration}</p>
-              <h3 className="text-base font-semibold text-foreground">
+            <div className="relative pl-6 border-l border-border pb-8 hover:bg-muted/40 transition rounded-md px-4 py-3 -ml-4">
+              {/* Timeline dot */}
+              <div className="absolute -left-[6px] top-2 w-3 h-3 rounded-full bg-foreground" />
+
+              {/* Duration */}
+              <p className="text-xs text-muted-foreground/70 mb-1">
+                {exp.duration}
+              </p>
+
+              {/* Role */}
+              <h3 className="text-lg font-semibold text-foreground">
                 {exp.role}
               </h3>
-              <p className="text-sm text-muted-foreground mb-2">{exp.company}</p>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                {exp.description}
+
+              {/* Company + Location */}
+              <p className="text-sm text-muted-foreground mb-2">
+                {exp.company} • {exp.location}
               </p>
+
+              {/* Bullet Points */}
+              <ul className="list-disc list-inside space-y-1 text-sm text-muted-foreground leading-relaxed">
+                {exp.points.map((point, idx) => (
+                  <li key={idx}>{point}</li>
+                ))}
+              </ul>
+
+              {/* Tech Stack */}
+              <div className="flex flex-wrap gap-2 mt-3">
+                {exp.tech.map((tech, idx) => (
+                  <span
+                    key={idx}
+                    className="text-xs bg-muted px-2.5 py-1 rounded-md text-muted-foreground"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
             </div>
           </FadeIn>
         ))}

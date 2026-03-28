@@ -44,11 +44,11 @@ const siteConfig: SiteConfig = {
     "Frontend-focused developer with full-stack experience. I enjoy building responsive, performant applications and am currently exploring AI-powered solutions.",
   about:
     "I'm a web developer passionate about creating minimal, functional, and beautiful digital experiences. With a focus on modern JavaScript frameworks and cloud-native architectures, I build products that are fast, accessible, and delightful to use.",
-  email: "hello@alexmorgan.dev",
+  email: "vignan.ft05@gmail.com",
 
   socialLinks: {
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
+    github: "https://github.com/VignanCheepurupalli",
+    linkedin: "https://www.linkedin.com/in/vignan-cheepurupalli-136996208/",
   },
 
   navLinks: [

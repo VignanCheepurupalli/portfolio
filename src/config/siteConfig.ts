@@ -33,10 +33,10 @@ export interface SiteConfig {
 }
 
 const siteConfig: SiteConfig = {
-  name: "Alex Morgan",
-  title: "Web Developer",
-  tagline: "Building elegant, performant web experiences with modern technologies.",
-  intro: "I craft clean, user-centric interfaces and robust applications that solve real problems.",
+  name: "Vignan Cheepurupalli",
+  title: "Frontend • Full Stack",
+  tagline: "I build fast, clean, and user-focused web applications.",
+  intro: "Frontend-focused developer with full-stack experience. I enjoy building responsive, performant applications and am currently exploring AI-powered solutions.",
   about:
     "I'm a web developer passionate about creating minimal, functional, and beautiful digital experiences. With a focus on modern JavaScript frameworks and cloud-native architectures, I build products that are fast, accessible, and delightful to use. When I'm not coding, you'll find me exploring new technologies, contributing to open source, or writing about web development.",
   email: "hello@alexmorgan.dev",

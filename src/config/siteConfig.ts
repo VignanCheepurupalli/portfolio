@@ -90,7 +90,7 @@ const siteConfig: SiteConfig = {
         "Built SQLite-based storage with CRUD operations and expense history tracking",
         "Visualized expense data using charts for category-based insights"
       ],
-      techStack: ["Java", "Android", "SQLite", "ML Kit"],
+      techStack: ["Java", "Android Studio", "SQLite", "ML Kit"],
       githubUrl: "",
       liveUrl: "",
       caseStudyUrl: "",
@@ -122,15 +122,20 @@ const siteConfig: SiteConfig = {
     "Next.js",
     "Node.js",
     "Python",
-    "PostgreSQL",
-    "MongoDB",
-    "Docker",
-    "AWS",
-    "Git",
     "Tailwind CSS",
     "GraphQL",
     "REST APIs",
+    "SQLite",
+    "MongoDB",
+    "Docker",
+    "AWS",
+    "Git",,
     "CI/CD",
+    "Jira",
+    "UI/UX Design",
+    "Figma",
+    "Wireframing",
+    "User Research"
   ],
 
   experience: [
@@ -146,7 +151,7 @@ const siteConfig: SiteConfig = {
         "Designed complete admin panel experience including dashboards, order management, and product workflows.",
         "Focused on usability, clarity, and scalability across all interfaces.",
       ],
-      tech: ["Figma"],
+      tech: ["Balsamiq", "Figma", "User Experience testing"],
     },
     {
       role: "Web Developer (Graduate Client Project)",
@@ -160,7 +165,7 @@ const siteConfig: SiteConfig = {
         "Collaborated in Agile workflow using Jira and GitHub feature branches.",
         "Delivered production-ready features with optimized performance and consistent rendering across devices, enhancing user experience.",
       ],
-      tech: ["Next.js", "React", "Tailwind", "Sanity CMS"],
+      tech: ["Next.js", "React", "Tailwind", "Sanity CMS", "GROQ", "Jira"],
     },
     {
       role: "UI/UX Designer (Graduate Client Project)",
@@ -173,7 +178,7 @@ const siteConfig: SiteConfig = {
         "Improved usability through iterative design reviews and feedback cycles.",
         "Developed navigation and interaction systems focused on clarity and discoverability.",
       ],
-      tech: ["Figma", "Balsamiq", "User Research"],
+      tech: ["Figma", "Balsamiq", "User Research", "User flows", "Wireframing", "Prototyping", "Information Architecture", "User experience testing"],
     },
   ],
 };

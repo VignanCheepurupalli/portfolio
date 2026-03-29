@@ -10,14 +10,23 @@ import Footer from "@/components/Footer";
 const Index = () => (
   <>
     <Navbar />
-    <main>
+
+    <main className="px-4 sm:px-6 lg:px-8">
+      
+      {/* HERO (full width feel, but still padded) */}
       <HeroSection />
-      <AboutSection />
-      <ProjectsSection />
-      <SkillsSection />
-      <ExperienceSection />
-      <ContactSection />
+
+      {/* CONTENT WRAPPER */}
+      <div className="max-w-6xl mx-auto space-y-14 sm:space-y-20 lg:space-y-24">
+        <AboutSection />
+        <ProjectsSection />
+        <SkillsSection />
+        <ExperienceSection />
+        <ContactSection />
+      </div>
+
     </main>
+
     <Footer />
   </>
 );

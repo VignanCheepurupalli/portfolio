@@ -15,7 +15,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="py-24 sm:py-32">
+    <section id="contact" className="py-12 sm:py-16">
       <div className="container">
         <FadeIn>
           <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight text-foreground mb-4">

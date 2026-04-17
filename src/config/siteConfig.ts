@@ -38,12 +38,12 @@ export interface SiteConfig {
 
 const siteConfig: SiteConfig = {
   name: "Vignan Cheepurupalli",
-  title: "Frontend • Full Stack",
-  tagline: "I build fast, clean, and user-focused web applications.",
+  title: "Software Engineer • Full-Stack Development",
+  tagline: "I build reliable and scalable applications using modern web technologies.",
   intro:
-    "Frontend-focused developer with full-stack experience. I enjoy building responsive, performant applications and am currently exploring AI-powered solutions.",
+    "Software developer with hands-on experience building full-stack applications. I enjoy working across the development lifecycle, from designing features to implementing and debugging real-world systems.",
   about:
-    "I'm a web developer passionate about creating minimal, functional, and beautiful digital experiences. With a focus on modern JavaScript frameworks and cloud-native architectures, I build products that are fast, accessible, and delightful to use.",
+    "I’m a software engineer focused on building practical and maintainable applications. I have experience working with modern JavaScript frameworks and backend integrations, and I’m interested in understanding how software systems scale and operate reliably in production environments.",
   email: "vignan.ft05@gmail.com",
 
   socialLinks: {
